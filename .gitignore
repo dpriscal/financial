@@ -6,4 +6,5 @@ financial.Rproj
 tests/testthat/packrat/
 packrat-scenario*/
 packrat/lib*/
+packrat/src/
 

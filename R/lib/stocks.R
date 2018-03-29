@@ -95,7 +95,7 @@ completeStockData <- function(sp_500){
       stock.prices = map(ticker.symbol, 
                          function(.x) get_stock_prices(.x, 
                                                        return_format = "tibble",
-                                                       from = "2007-01-01",
+                                                       from = "2007-03-01",
                                                        to = "2016-10-23")
       ),
       log.returns  = map(stock.prices, 

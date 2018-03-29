@@ -1,0 +1,10 @@
+financial.Rproj
+.RData
+.Rhistory
+.DS_Store
+.Rproj.user
+tests/testthat/packrat/
+packrat-scenario*/
+packrat/lib*/
+packrat/src/
+
